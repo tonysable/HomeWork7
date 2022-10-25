@@ -27,7 +27,7 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] table = CreateMatrix(3, 4, 1, 15);
+int[,] table = CreateMatrix(3, 4, -10, 15);
 PrintMatrix(table);
 
 Console.WriteLine("Введите номер строки: ");
